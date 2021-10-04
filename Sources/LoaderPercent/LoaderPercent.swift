@@ -3,7 +3,7 @@ import Foundation
 import UIKit
 
 
-class LoaderPercentView: UIView {
+public class LoaderPercentView: UIView {
     let indicator: UIActivityIndicatorView = {
         var indicate = UIActivityIndicatorView()
         
